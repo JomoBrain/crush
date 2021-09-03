@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/css/style.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./asset/favicon/favicon-16x16.png" type="image/x-icon">
+    <title>mbesaa❣</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#video">video</a></li>
+                <li><a href="#pics">Pics</a></li>
+            </ul>
+        </nav>
+
+        <section class="hero " >
+            <div class="hero_center " >
+               <div class="mc" data-aos="fade-up-right" data-aos-duration="2000">
+                   <div class="card">
+                    <p class="hero_text front " >
+                        mbesa <span>❣</span>
+                    </p>
+                    <p class="hero_text2 back">
+                        apart from being <br>
+                         <span class="awe">awesome <span class="awe2">🧡</span>
+
+                         </span>
+                          <br> what do you do for a living
+                    </p>
+                   </div>
+               </div>
+            </div>
+        </section class="body">
+        <!-- 😂💛💛💎✨🔥🔥💯💯❣️💚❣️🧡💫 -->
+        <div class="gallery">
+            <h1 class="j">🔥Jacinta</h1>
+            <p>
+                tbh🙂you are one in a million. Your are talented. Your voice, so golden baby girl,your attitude ✨ is in another level,your confidence cant be rated coz its damn high.Your smile💯,you don't need to smile to make we laugh..you're funny madzam😂.believe you me,you're  fuckin gem 💎
+            </p>
+
+           <div>
+            <img src="./asset/images/mbessa7.jpg" class="mb7" alt="mbessa" data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000">
+            <section class="mbessa7">
+               
+                <input id="trigger" type="checkbox" hidden>
+                <label class="trigger" for="trigger"></label>
+                <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+                </div>
+ 
+
+            </section>
+           </div>
+
+        </div>
+       
+        <h1 class="j">Check out an amazing gallery</h1>
+
+        <p class="j">
+            With zero gravity..i would still fall for you
+        </p>
+
+
+        <main class="pics" id="pics">
+            <!-- <base href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/wanaka-tree.jpg"> -->
+        <div id="carousel">
+        <figure id="spinner">
+            <img src="./asset/images/mbessa1.jpg" alt>
+            <img src="./asset/images/mbessa2.jpg" alt>
+            <img src="./asset/images/mbessa3.jpg" alt>
+           
+            <img src="./asset/images/mbessa4.jpg" alt>
+            <img src="./asset/images/mbess5.jpg" alt>
+            <img src="./asset/images/mbessa6.jpg" alt>
+            
+            <img src="./asset/images/mbessa7.jpg" alt>
+            <img src="./asset/images/mbessa9.jpg" alt>
+            <img src="./asset/images/mbessa1.jpg" alt>
+            <img src="./asset/images/mbessa1.jpg" alt>
+        </figure>
+        </div>
+<span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+<span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+        </main>
+
+
+
+
+
+
+<div class="video">
+    <h1 class="j">Talentend!! damn</h1>
+    <!-- <p >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt accusantium beatae totam necessitatibus voluptas facilis cumque ea velit fugit enim reiciendis voluptatem blanditiis, iste suscipit laudantium quia reprehenderit quam doloribus consequuntur porro corrupti nisi eveniet repellendus. Necessitatibus vitae voluptates sequi recusandae nam quaerat commodi ullam. Suscipit doloremque quam ipsa sequi!
+    </p> -->
+    <!-- <video src="./asset/images/vidaa.mp4"></video> -->
+    <p id="video">j</p>
+</div>
+
+
+
+<footer>
+    <small>&copy; 2021 All rights reserved <i>jay_jacinta</i> </small>
+</footer>
+
+
+
+
+
+    </div>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        var angle = 0;
+        function galleryspin(sign) { 
+        spinner = document.querySelector("#spinner");
+        if (!sign) { angle = angle + 45; } else { angle = angle - 45; }
+        spinner.setAttribute("style","-webkit-transform: rotateY("+ angle +"deg); -moz-transform: rotateY("+ angle +"deg); transform: rotateY("+ angle +"deg);");
+        }
+        console.log("xcdhjk")
+      </script>
+    <script src="./asset/js/app.js" ></script>  
+</body>
+</html>
